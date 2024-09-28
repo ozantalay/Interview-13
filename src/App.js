@@ -70,7 +70,7 @@ const CustomProgram = () => {
           onChange={(e) => setValue(e.target.value)}
           placeholder="Bir sayı girin"
           />
-        <button style={{ backgroundColor: "green", color: "white" }}
+        <button style={{ backgroundColor: "green", color: "white", border:'1px solid green'}}
         onClick={handleSumit}
         >
           Gönder
