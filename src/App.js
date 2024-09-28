@@ -54,7 +54,7 @@ const CustomProgram = () => {
         <button onClick={() => addOperation('double')}>İki Kat</button>
         <button onClick={() => addOperation('increment')}>Arttır</button>
         <button onClick={() => addOperation('decrement')}>Eksilt</button>
-        <button onClick={clearAll}>Temizle</button>
+        <button style={{backgroundColor:'red'}} onClick={clearAll}>Temizle</button>
 
       </div>
 
